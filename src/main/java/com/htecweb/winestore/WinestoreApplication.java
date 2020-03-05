@@ -1,12 +1,12 @@
-package com.htecweb.beerstore;
+package com.htecweb.winestore;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BeerstoreApplication {
+public class WinestoreApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BeerstoreApplication.class, args);
+        SpringApplication.run(WinestoreApplication.class, args);
     }
 }

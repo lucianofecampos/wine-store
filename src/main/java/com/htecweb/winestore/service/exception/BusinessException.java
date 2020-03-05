@@ -1,4 +1,4 @@
-package com.htecweb.beerstore.service.exception;
+package com.htecweb.winestore.service.exception;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

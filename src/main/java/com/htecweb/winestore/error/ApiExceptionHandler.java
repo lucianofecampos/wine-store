@@ -1,8 +1,8 @@
-package com.htecweb.beerstore.error;
+package com.htecweb.winestore.error;
 
 import com.fasterxml.jackson.databind.exc.InvalidFormatException;
-import com.htecweb.beerstore.error.ErrorResponse.ApiError;
-import com.htecweb.beerstore.service.exception.BusinessException;
+import com.htecweb.winestore.error.ErrorResponse.ApiError;
+import com.htecweb.winestore.service.exception.BusinessException;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

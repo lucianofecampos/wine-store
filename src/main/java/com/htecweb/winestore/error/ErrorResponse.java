@@ -1,4 +1,4 @@
-package com.htecweb.beerstore.error;
+package com.htecweb.winestore.error;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import lombok.RequiredArgsConstructor;

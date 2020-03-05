@@ -1,4 +1,4 @@
-package com.htecweb.beerstore.config;
+package com.htecweb.winestore.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -28,7 +28,7 @@ public class SpringFoxConfig {
 
     private ApiInfo getApiInfo() {
         return new ApiInfo(
-                "Beers Store",
+                "Wines Store",
                 "Curso de Spring etc com Normandes",
                 "1.0",
                 "TERMS OF SERVICE URL",

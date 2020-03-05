@@ -1,4 +1,4 @@
-package com.htecweb.beerstore.model;
+package com.htecweb.winestore.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import io.swagger.annotations.ApiModelProperty;
@@ -19,23 +19,23 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @EqualsAndHashCode(onlyExplicitlyIncluded = true)
 @Entity
-public class Beer {
+public class Wine {
 
     @ApiModelProperty(hidden = true)
     @Id
-    @SequenceGenerator(name = "beer_seq", sequenceName = "beer_seq", allocationSize = 1)
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "beer_seq")
+    @SequenceGenerator(name = "wine_seq", sequenceName = "wine_seq", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "wine_seq")
     @Include
     private Long id;
 
-    @NotBlank(message = "beers-1")
+    @NotBlank(message = "wines-1")
     private String name;
 
-    @NotNull(message = "beers-2")
-    private BeerType type;
+    @NotNull(message = "wines-2")
+    private WineType type;
 
-    @NotNull(message = "beers-3")
-    @DecimalMin(value = "0", message = "beers-4")
+    @NotNull(message = "wines-3")
+    @DecimalMin(value = "0", message = "wines-4")
     private BigDecimal volume;
 
     @JsonIgnore
